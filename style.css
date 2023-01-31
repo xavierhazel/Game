@@ -10,7 +10,7 @@
 }
 #topNav > ul > li > a
 {
-  color: white;
+  color: lightgray;
   display: inline-block;
   height: 60px;
   line-height: 60px;
@@ -20,7 +20,7 @@
   transition: color 0.3s ease-in;
 }
 #topNav > ul > li > a:hover {
-  color:lightgray ;
+  color:#36454F ;
 }
 
 <!-- creates the navigation bar-->
