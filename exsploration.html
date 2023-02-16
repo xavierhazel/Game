@@ -36,4 +36,43 @@
       
       
       <h2>2d coded game</h>
+    <p>below are a few exsamples of sample code from the coding project titled as "coins deserv to be eayen.py"</p>
+    
+    <pre>
+ <code>
+    Fox=Actor("Samual-mander")
+fox.pos = 100,100
+
+coin = actor("New Piskel")
+coin.pos = 200, 200
+ </code>
+ <samp>
+    if game_over:
+        screen.fill("pink")
+        screen.daw.text("Final Score: " + str(score), topleft(10,10), fontsize =60)
+ </samp>
+ <kbd>
+ if keyboard.left:
+        fox.x=fox.x-4
+    elif keyboard.right:
+        fox.x = fox.x + 4
+    elif keyboard.up:
+        fox.y= fox.y - 4
+    elif keyboard.down:
+        fox.y = fox.y + 4
+ </kbd>
+    </pre>
+    <p>
+  1. the first piece of sample code is used to define the actors, actors are basically pieces on the board, if it was a chess game 
+    they would be the individual pieces, they all need to be defined with an image and a certain
+    set of location standards, but this first piece of code only contains there cosmetic standards.
+  2. the second piece of code is used to determine the win condition of the game.in this game a salamander, defined as fox, 
+    is tasked with collecting a fern. once this fern is
+    collected the game is completed and the victory condition is achieved, the above code just executes this win condition.
+   3. and the final piece of code is used to control how the player moves there "actor" this is the primary function of the
+    game because without it it would
+    just be an image with an unachievable victory condition. basically than the player presses a certain arrow key the 'fox' piece 
+    moves in that direction without a corresponding movement to keyboard mapping software. 
+    </p>
+    
 </body>
