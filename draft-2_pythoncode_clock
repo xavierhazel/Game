@@ -1,0 +1,31 @@
+from adafruit_circuitplayground import cp
+from adafruit_crickit import cricket
+from adafruit_moter import stepper
+import time
+
+def custom_hello(name):
+    print("hello " + name)
+    
+def my_angle(0):
+    
+
+  def clocktimmer_15min():
+    count = 0
+    while count < 5:
+    
+    for my_angle in range(15):
+      cricket.servo_1.angle =my_angle+12
+      time.sleep(60)
+
+      
+      count = count + 1
+      print("multifacited functional syntax error, not")
+
+  while True:
+    if cp.button_a:
+        basic_hello()
+        wave_hello()
+        time.sleep(2)
+        
+        
+        
